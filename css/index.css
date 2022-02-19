@@ -13,7 +13,6 @@ body{
 }
 .flex{
     display: flex;
-    /* margin-right: auto; */
 }
 
 .right{
@@ -33,18 +32,16 @@ body{
 /* header styles */
 .nav-bar{
     background-color:var(--bg-primary);
-    /* justify */
     padding-right: 2rem;
 }
 
 .nav-link{
-    color: whitesmoke;
+    color: var(--smokewhite-color);
     padding:0.6rem;
 }
 
 .nav-head{
     font-size: 1.8rem;
-    /* font-weight: bold; */
     align-self: flex-start;
 }
 
@@ -65,7 +62,7 @@ body{
 }
 
 .med-ham{
-    color:whitesmoke;
+    color:var(--smokewhite-color);
 }
 
 .shadow{
@@ -95,7 +92,6 @@ body{
     position:absolute;
     width:100%; 
     color:var(--shadow-primary);
-    /* text-align:center; */
     right:0;
     max-width: 2rem;
     padding:0.5rem;
@@ -105,7 +101,6 @@ body{
     font-size:1rem;
     height: 2rem;
     width: 20rem;
-    /* text-align: center; */
     border:none;
     background-color: var(--smokewhite-color);
     padding: 0.2rem 1rem;
@@ -114,7 +109,6 @@ body{
 
 .hamburger-dropdown-content{
     display: none;
-    /* width:fit-content; */
     background-color: var(--bg-primary);
     position:absolute;
     z-index: 1;
@@ -138,27 +132,6 @@ body{
     opacity:70%;
     z-index:1;
 }
-
-/* .home-img{
-    box-sizing: border-box;
-    display:flex;
-    justify-content:center;
-    position: relative;
-    width:100%;
-  
-} */
-/* .home-img::before{
-    position: absolute;
-    content:"";
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    background-image:url("../assets/guitar6.jpg");
-    background-repeat:no-repeat;
-    background-size:cover;
-    z-index:-1;
-} */
 
 .back{
     position:absolute;
