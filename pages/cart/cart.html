@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Anupam Srivastava">
+    <title>Product</title>
+    <link rel="stylesheet" href="https://decora.netlify.app/css/style.css ">
+    <link rel="stylesheet" href="cart.css">
+    <script src=" https://kit.fontawesome.com/7966d641ca.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="nav-bar ">
+            <div class="hamburger-dropdown">
+                <div class="hamburger"> <i class="fa-solid fa-bars med-ham "></i></div>
+                <div class="hamburger-dropdown-content">
+                    <a href="#" class="dropdown-nav-link" tabIndex="0">Log In</a>
+                    <a href="#" class="dropdown-nav-link" tabIndex="0">WishList</a>
+                    <a href="./cart.html" class="dropdown-nav-link" tabIndex="0">Cart</a>
+                </div>
+            </div>
+            <a href="../../index.html" class="nav-sm bold"> <i class="fa-solid fa-guitar white med"></i>G-Mart</a>
+            <div class="head-container-1 flex hide">
+                <a href="../../index.html" class="nav-link nav-head bold" tabIndex="0"><i
+                        class="fa-solid fa-guitar white med"></i>G-Mart</a>
+            </div>
+            <div class="head-container-2 flex center hide">
+                <div class="search-container flex center">
+                    <div class="search-bar round">
+                        <i class="fa-solid fa-magnifying-glass input-icon"></i>
+                        <input class="search-input round" placeholder="search here" type="text">
+                        </input>
+                    </div>
+                </div>
+                <div class="flex right">
+                    <div class="nav-link" tabIndex="0">
+                        <a href="">
+                            <button class="btn pri-btn shadow btn-2-scale bold round">
+                                Log In
+                            </button>
+                        </a>
+                    </div>
+                    <div class="gutter-vertical"></div>
+                    <div class="nav-link" tabIndex="0">
+                        <a href="">
+                            <div class="badge-wrap"><i class="fa-solid fa-heart med"></i></i>
+                                <div class="badge icon bg-red"> 3 </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="nav-link" tabIndex="0">
+                        <a href="./cart.html">
+                            <div class="badge-wrap"><i class="fa-solid fa-cart-shopping med"></i>
+                                <div class="badge icon bg-red"> 3 </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <main class="cart-contents">
+        <div class="cart-heading flex center">My Cart</div>
+        <div class="item-holder padding-t2 flex">
+            <div class="card horizontal">
+                <img class="card-img" src="../../assets/bag2.jpg" alt="card-img">
+                <div class="hz-card-details">
+                    <div class="card-desc">
+                        <h3 class="card-heading line">Gucci Bag</h3>
+                        <p class="card-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus a risus
+                            arcu. </p>
+                    </div>
+                    <div class="product-cost">
+                        <span class="card-heading bold">₹2500 </span><span class="strike font-light">₹6000</span>
+                    </div>
+                    <div class="card-actions">
+                        <button class="btn pri-btn rmv-btn btn-3 ">
+                            Remove From Cart
+                        </button>
+                        <button class="btn pri-btn add-wish-btn btn-3 bold outlined">
+                            Add to Wishlist
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="bill">
+                <div class="bill-head ">PRICE DETAILS</div>
+                <hr class="light-rule">
+                <div class="bill-calc">
+                    <div class="flex pad-bt1">
+                        <span >Price</span>
+                        <span class="right">₹4500</span>
+                    </div>
+                    <div class="flex pad-bt1">
+                        <span>Discount</span>
+                        <span class="right">-₹800</span>
+                    </div>
+                    <div class="flex pad-bt1">
+                        <span>Delivery Charges</span>
+                        <span class="right">₹300</span>
+                    </div>
+                </div>
+                <hr class="light-rule">
+                <div class="bill-total flex">
+                    <span>TOTAL AMOUNT </span>
+                    <span class="right">₹4000</span>
+                </div>
+                <hr class="light-rule">
+                <div class="pad-bt1">You will save ₹500 on this order. </div>
+                <button class="btn pri-btn order-btn btn-3 bold">
+                    PLACE ORDER
+                </button>
+
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
