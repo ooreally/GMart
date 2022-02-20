@@ -6,6 +6,7 @@
     --white-color: white;
     --smokewhite-color: whitesmoke;
     --border-color-white: #f3f4f6;
+    --secondary-btn-color:#9333EA;
 }
 
 *{
@@ -44,6 +45,10 @@ body{
 .font-light{
     font-weight:light;
     color: var(--gray-color);
+}
+
+.light-rule{
+    color:var(--border-color-white);
 }
 /* header styles */
 .nav-bar{
