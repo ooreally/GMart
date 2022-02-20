@@ -1,0 +1,67 @@
+@import url("../../css/index.css"); 
+
+.wishlist-contents{
+    height: calc(100vh - 60px);
+    background-color: var(--smokewhite-color);
+}
+
+.wishlist-heading{
+    width:100%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem;
+    background-color:var(--bg-light);
+}
+
+.wishlist-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(18rem,1fr) );
+    gap: 1.5rem;
+    padding: 2rem;
+    width:100%;
+}
+
+.card{
+    width:18rem;
+    padding: 1rem;
+    background-color:var(--smokewhite-color);
+}
+
+.card-badge-green{
+    background-color: var(--green-color);
+}
+
+.card>.product-cost{
+    margin-top:0.8rem;
+}
+
+.card>.fa-heart{
+    position:absolute;
+    padding: 0.1rem 1rem;
+    top: 0.5rem;
+    right:0;
+}
+.card-actions>.btn{
+    width: 100%;
+}
+
+.card-actions>.pri-btn{
+    box-shadow: none;
+}
+
+.card-actions>.pri-btn:hover{
+    color: var(--white-color);
+    background-color: var(--text-red);
+    opacity:100%;
+    font-weight: bolder;
+}
+
+.med-red {
+    color: var(--red-color);
+    font-size: 2.2rem;
+}
+
+.fa-heart:hover{
+    transform: scale(1.1,1.1);
+    transition: 220ms;
+}
