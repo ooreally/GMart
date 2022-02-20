@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 :root{
     --bg-primary:#aa4a2b;
     --shadow-primary:#7a361f;
@@ -7,6 +9,7 @@
 
 *{
     color:black;
+    font-family: 'Open Sans', sans-serif;
 }
 body{
     background-color: var(--white-color);
@@ -29,6 +32,18 @@ body{
     width: 2rem;
 }
 
+.padding-t2{
+    padding-top: 2rem;
+}
+
+.strike{
+    text-decoration-line:line-through ;
+}
+
+.font-light{
+    font-weight:light;
+    color: var(--gray-color);
+}
 /* header styles */
 .nav-bar{
     background-color:var(--bg-primary);
