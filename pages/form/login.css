@@ -72,6 +72,10 @@
 .route-link{
     padding: 1rem 0rem;
 }
+
+.route-link:hover{
+    color:var(--secondary-btn-color);
+}
 .order-btn{
     background-color: var(--secondary-btn-color);
     color: var(--white-color);
