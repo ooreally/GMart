@@ -1,0 +1,78 @@
+@import url("../../css/index.css"); 
+
+.form-contents{
+    height: calc(100vh - 60px);
+    background-color: var(--smokewhite-color);
+    
+}
+
+.login-form{
+    display:flex;
+    flex-direction:column;
+    background-color: var(--white-color);
+    box-shadow: 2px 2px 10px 1px var(--light-gray-color);
+    padding: 2rem;
+    min-width: 22rem;
+}
+
+.login-form:hover{
+    box-shadow: 2px 2px 10px 1px var(--gray-color);
+}
+
+.form-head{
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.pass-label{
+    color:var(--black-color);
+    line-height: 1.5rem;
+    box-sizing: border-box;
+    padding:0.5rem;
+}
+
+.email-label,.pass-label{
+    font-size:1rem;
+    margin-top:0.5rem;
+    padding-left:0;
+    padding-bottom:0;
+}
+
+
+.email-input{
+    width:100%;
+}
+
+.pass-input{
+    color:var(--bg-dark);
+    padding: 0.5rem;
+    border: 2px solid var(--bg-light);
+}
+
+.forget-link{
+    color:var(--secondary-btn-color);
+}
+
+.forget-link:hover{
+    font-weight:bolder;
+}
+
+.pri-btn{
+    box-shadow: none;
+}
+.form-msg{
+    font-size:0.8rem;
+    line-height: 2rem;
+    display:flex;
+}
+.pad-bt1{
+    padding: 0.5rem 0rem;
+}
+
+.route-link{
+    padding: 1rem 0rem;
+}
+.order-btn{
+    background-color: var(--secondary-btn-color);
+    color: var(--white-color);
+}
