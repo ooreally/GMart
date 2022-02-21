@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Anupam Srivastava">
+    <title>Product</title>
+    <link rel="stylesheet" href="https://decora.netlify.app/css/style.css ">
+    <link rel="stylesheet" href="login.css">
+    <script src=" https://kit.fontawesome.com/7966d641ca.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="nav-bar ">
+            <div class="hamburger-dropdown">
+                <div class="hamburger"> <i class="fa-solid fa-bars med-ham "></i></div>
+                <div class="hamburger-dropdown-content">
+                    <a href="./login.html" class="dropdown-nav-link" tabIndex="0">Log In</a>
+                    <a href="../wishlist/wishlist.html" class="dropdown-nav-link" tabIndex="0">WishList</a>
+                    <a href="../cart/cart.html" class="dropdown-nav-link" tabIndex="0">Cart</a>
+                </div>
+            </div>
+            <a href="../../index.html" class="nav-sm bold"> <i class="fa-solid fa-guitar white med"></i>G-Mart</a>
+            <div class="head-container-1 flex hide">
+                <a href="../../index.html" class="nav-link nav-head bold" tabIndex="0"><i
+                        class="fa-solid fa-guitar white med"></i>G-Mart</a>
+            </div>
+            <div class="head-container-2 flex center hide">
+                <div class="search-container flex center">
+                    <div class="search-bar round">
+                        <i class="fa-solid fa-magnifying-glass input-icon"></i>
+                        <input class="search-input round" placeholder="search here" type="text">
+                        </input>
+                    </div>
+                </div>
+                <div class="flex right">
+                    <div class="nav-link" tabIndex="0">
+                        <a href="./login.html">
+                            <button class="btn pri-btn shadow btn-2-scale bold round">
+                                Log In
+                            </button>
+                        </a>
+                    </div>
+                    <div class="gutter-vertical"></div>
+                    <div class="nav-link" tabIndex="0">
+                        <a href="../wishlist/wishlist.html">
+                            <div class="badge-wrap"><i class="fa-solid fa-heart med"></i></i>
+                                <div class="badge icon bg-red"> 3 </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="nav-link" tabIndex="0">
+                        <a href="../cart/cart.html">
+                            <div class="badge-wrap"><i class="fa-solid fa-cart-shopping med"></i>
+                                <div class="badge icon bg-red"> 3 </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <main class="form-contents flex center">
+            
+                <form class="login-form">
+                    <div class="form-head flex center ">Signup</div>
+                    <label class="email-label" htmlFor="email-input">Email Address: </label>
+                                <input class="email-input round" placeholder="you@example.com"></input>
+
+                    <label class="pass-label" htmlFor="pass-input">Password: </label>
+                                <input class="pass-input round" placeholder="password"></input>
+                    <div class="form-msg pad-bt1"> <label htmlFor="checkbox1">
+                        <input type="checkbox" id="checkbox1" />
+                        I accept all terms and conditions.
+                    </label></div>
+                    <button class="btn pri-btn order-btn btn-3 bold">
+                        SignUp
+                    </button>
+                    <div class="flex center "> 
+
+                        <a href="./login.html" class="padding-t1 " >
+                            Already a customer? <span class="route-link line">Signin here </span> &gt; 
+                        </a>
+                       </div>
+                </form>
+        
+        </main>
+    </div>
+    
+</body>
+
+</html>
