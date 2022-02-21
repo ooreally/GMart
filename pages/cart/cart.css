@@ -41,12 +41,13 @@
 
 .card-img{
     padding: 0.5rem;
+    height: 17rem;
 }
 .card-actions>.pri-btn, .bill>.pri-btn{
     box-shadow: none;
 }
 .product-cost{
-    margin-top:0.8rem;
+    margin:0.5rem 0rem;
 }
 
 .rmv-btn{
@@ -97,4 +98,23 @@
 .order-btn{
     background-color: var(--secondary-btn-color);
     color: var(--white-color);
+}
+.quantity{
+
+}
+.q-input{
+    max-width: 4ch;
+    font-size: 1rem;
+    padding: 0.1rem 0.2rem;
+    border: 2px solid var(--gray-color);
+}
+.increase,.decrease{
+    background-color: var(--light-gray-color);
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    border-radius: 50%;
+    box-sizing: border-box;
+    box-shadow:none;
+    border: 2px solid var(--gray-color);
+    padding: 0.1rem 0.4rem;
 }
